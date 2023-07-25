@@ -81,11 +81,16 @@ position: relative;
 top: 0%;
 }
 
+.g-search{
+    position: relative;
+    margin-top: 50px;
+}
+
+
 .container{
    min-height: 200vh ;
     background-color: #2D2727;
     color: white;
-
 }
 
 .content-container{

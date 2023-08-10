@@ -759,8 +759,8 @@ text-align: center;
 
   .grid-item{
     position: relative;
-    margin-left: 0px;
-width: 15px;
+   width: fit-content;
+padding:0px 25px;
   }
 
  

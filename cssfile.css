@@ -643,6 +643,11 @@ z-index: 2;
     display: flex;
 }
 
+.content-container-single{
+    display: flex;
+    flex-direction: column;
+}
+    
 .img-single{
     width: 50%;
     border-radius: 7%;

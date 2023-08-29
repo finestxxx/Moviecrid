@@ -688,6 +688,11 @@ width: fit-content;
 padding:0px 25px;
   }
 
+  .download-button-movie-single{
+    position: fixed;
+    left: 25px;
+  }
+ 
  
 
   /*category page*/

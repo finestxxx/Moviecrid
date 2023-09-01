@@ -669,8 +669,9 @@ z-index: 2;
     font-size: 1rem;
     position: relative;
     top: 12px;
-    left: 9px;
+    left: 0px;
     margin-top: 10px;
+    text-align: left;
 
 }
 

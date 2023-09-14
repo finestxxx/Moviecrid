@@ -25,5 +25,5 @@ function changeDomain(oldDomain, newDomain) {
 }
 
 // Call the function with your desired domain names
-changeDomain("gotaku1.com", "go.com");
+changeDomain("gotaku1.com", "goone.com");
 changeDomain("goone.com", "goone.com");

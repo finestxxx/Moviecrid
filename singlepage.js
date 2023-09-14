@@ -1,3 +1,11 @@
+let hamburgerSingle=document.querySelector(".hamburger-single");
+var menuSingle=document.querySelector(".menu-container-single");
+
+hamburgerSingle.addEventListener("click", function(){
+    menuSingle.classList.toggle('show-single');
+})
+
+
 var links = document.getElementsByTagName("a");
 
 
@@ -14,11 +22,6 @@ for (var i = 0; i < links.length; i++) {
     links[i].href = newHref;
   }
 }
- hamburgerSingle=document.querySelector(".hamburger-single");
-var menuSingle=document.querySelector(".menu-container-single");
 
-hamburgerSingle.addEventListener("click", function(){
-    menuSingle.classList.toggle('show-single');
-})
 
 

@@ -148,8 +148,14 @@ text-align: center;
 
 
 .heading{
-    color: white;
+    color: rgb(29, 252, 29);
 }
+
+.must-watch-head{
+    color:white;
+}
+
+
 .anime-container{
     display: flex;
     flex-direction: column;
@@ -176,8 +182,9 @@ margin: 2%;
 .anime-item-name-link{
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 }
+
 
 
 .g-search{
@@ -185,10 +192,37 @@ margin: 2%;
     margin-top: 50px;
 }
 
+.new-episode-compile{
+    display: grid;
+   grid-template-columns:auto auto auto auto auto auto;
+    gap: 20px;
+
+}
+
+
+.must-watch{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto;
+     gap: 20px;
+}
+
 .anime-item-name-link-episode{
     color: rgb(26, 245, 26);
     text-decoration: none;
+    font-size: 0.9rem;
+    font-family: 'Albert Sans', sans-serif;
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Sen', sans-serif;
+font-family: 'Urbanist', sans-serif;
+font-family: 'Victor Mono', monospace;
+   
 }
+
+
+
 
 /*single movie page*/
 
@@ -234,7 +268,6 @@ font-size: 10px;
     position: relative;
     left: 5%;
     font-size: 0.9rem;
-
 }
 
 .name-color{
@@ -566,15 +599,23 @@ background-color: aqua;
     justify-content: space-around;
 }
 
+.new-episode-compile{
+    display: grid;
+   grid-template-columns:auto auto ;
+    gap: 0px;
+
+}
+
 .anime-item{
 margin-bottom: 10%;
 margin-top: 10%;
+
 }
 
 .anime-item-img{
     width: 70%;
     border-radius: 5%;
-
+   
 }
 
 .anime-item-name-link{
@@ -582,7 +623,33 @@ margin-top: 10%;
     text-decoration: none;
 }
 
+.anime-item-name-link h4{
+    font-size: 0.7rem;
+}
 
+
+
+.must-watch{
+    display: grid;
+    grid-template-columns:auto auto auto;
+     gap: 0px;
+     padding: 10px;
+}
+
+.anime-item-name-link-episode{
+    color: rgb(26, 245, 26);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: 'Albert Sans', sans-serif;
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Sen', sans-serif;
+font-family: 'Urbanist', sans-serif;
+font-family: 'Victor Mono', monospace;
+   
+}
 
 
 /*single movie page*/
@@ -653,10 +720,11 @@ z-index: 2;
     display: flex;
     flex-direction: column;
 }
-    
+
 .img-single{
     width: 50%;
     border-radius: 7%;
+    position: relative;
 }
 
 .seasons{
@@ -694,7 +762,8 @@ text-align: center;
 width: fit-content;
 padding:0px 25px;
   }
- 
+
+  
  
 
   /*category page*/
@@ -707,14 +776,15 @@ width: 100%;
 background-color: rgb(39, 38, 38);
 padding: 20px;
 border-radius: 10px;
-      text-align: left;
 }
 
   /*category popular page*/
 
-    .category{
+
+.category{
     text-align: left;
 }
+
 
 .pages{
     display: flex;

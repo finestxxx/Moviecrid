@@ -221,7 +221,18 @@ font-family: 'Victor Mono', monospace;
    
 }
 
+.search-box-container{
+    width: 100%;
+   height: 100px;
+   
+    
+}
 
+.search-box{
+    position: relative;
+    margin-left: 43%;
+   
+}
 
 
 /*single movie page*/
@@ -651,6 +662,11 @@ font-family: 'Victor Mono', monospace;
    
 }
 
+    .search-box{
+    position: relative;
+    margin-left: 29%;
+   
+}
 
 /*single movie page*/
 

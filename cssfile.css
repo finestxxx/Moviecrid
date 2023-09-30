@@ -231,7 +231,7 @@ font-family: 'Victor Mono', monospace;
 .search-box{
     position: relative;
     margin-left: 43%;
-   
+    width: fit-content;
 }
 
 
@@ -664,8 +664,8 @@ font-family: 'Victor Mono', monospace;
 
     .search-box{
     position: relative;
-    margin-left: 29%;
-   
+    margin-left: 109px;
+    width: fit-content;
 }
 
 /*single movie page*/

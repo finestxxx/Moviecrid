@@ -28,6 +28,8 @@ function changeDomain(oldDomain, newDomain) {
 changeDomain("gotaku1.com", "goone.pro");
 changeDomain("goone.com", "goone.pro");
 
+
+
 var script = document.createElement('script');
 script.type = 'text/javascript';
 script.src="https://www.freefind.com/live/scripts/freefind_searchbox_v2.js"

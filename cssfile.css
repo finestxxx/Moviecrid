@@ -747,6 +747,11 @@ z-index: 2;
     position: relative;
 }
 
+.synopsis{
+    width: 350px;
+}
+
+    
 .seasons{
     display: flex;
     gap: 30px;

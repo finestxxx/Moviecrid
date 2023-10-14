@@ -625,8 +625,8 @@ margin-top: 10px;
 }
 
 .anime-item-img{
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: auto;
     border-radius: 5%;
     
    

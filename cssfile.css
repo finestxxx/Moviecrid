@@ -612,7 +612,8 @@ background-color: aqua;
 
 .new-episode-compile{
     display: grid;
-   grid-template-columns:auto auto ;
+  
+    grid-template-columns: repeat(2, 1fr);
     gap: 0px;
 
 }

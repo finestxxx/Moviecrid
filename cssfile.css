@@ -755,7 +755,8 @@ z-index: 2;
     display: flex;
     gap: 30px;
     position: relative;
-    left: 0px;
+    width: fit-content;
+    left: 10px;
 }
 
 .seasons-list-item{

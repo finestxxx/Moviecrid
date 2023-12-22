@@ -10,7 +10,7 @@ body{
 }
 
 .navbar{
-    position: fixed;
+    position:static;
     width: 100%;
     height: 50px;
     background-color: black;
@@ -208,6 +208,8 @@ margin: 2%;
      gap: 20px;
 }
 
+
+
 .anime-item-name-link-episode{
     color: rgb(26, 245, 26);
     text-decoration: none;
@@ -383,6 +385,189 @@ margin-top: 10px;
     margin-top: 60px;
 }
 
+/*must watch*/
+
+.must-watch-container{
+    
+     margin-top: 20px;
+     width: fit-content;
+     margin-left: 40px;
+     color: white;
+ }
+ 
+ .must-watch-video-advert{
+     display: flex;
+    justify-content: space-around;
+   
+ }
+ 
+ .must-watch-video-container{
+     width: fit-content;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .must-watch-advert{
+     display: none;
+     background-color: blue;
+     width: 700px;
+     height: 414px;
+ }
+ 
+ .must-watch-details{
+    color: rgb(26, 245, 26); 
+    
+ }
+ 
+.must-watch-details-span{
+    color: white; 
+    font-size: smaller;
+    
+}
+
+.details-name{
+    font-size: medium;
+    color: rgb(26, 245, 26);
+}
+
+.must-watch-plot{
+    font-size: smaller;
+}
+
+.must-watch-here{
+    text-decoration: none;
+    color: rgb(26, 245, 26);
+    position: relative;
+}
+
+.must-watch-similar{
+   display: flex; 
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.similar-item-img{
+    width: 130px;
+    height: 140px;
+    margin: 12px;
+}
+
+.similar-heading{
+    text-align: center;
+   color: rgb(26, 245, 26); 
+  
+}
+
+.similar-item-name-link{
+    font-size: x-small;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.comment-section-container{
+    display: none;
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .comment-section-heading{
+        font-size: medium;
+        
+    }   
+
+/*otakus opinion*/
+
+.otakus-opinion{
+    border: solid 1px;
+   
+}
+
+.otakus-item{
+    border: solid 0.1px;
+    padding: 20px;
+    text-align: left;
+}
+
+.otakus-page-container{
+    position: relative;
+       margin-top: 20px; 
+       margin-left: 20px;
+       color: white;
+}
+
+.otakus-item-link{
+    text-decoration: none;
+    color: white;
+}
+
+.otakus-page-item-and-advert{
+    display: flex;
+    margin-bottom: 40px;
+ 
+}
+
+.otakus-page-item{
+    width: 70%;
+    
+}
+
+.otakus-page-item h3{
+    color:  rgb(26, 245, 26);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.otakus-page-img-and-details-cont{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.otakus-img{
+    width: 250px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.otakus-page-item-numbers{
+    color: white;
+    font-family: 'Rethink Sans', sans-serif;
+    font-style: italic;
+    font-size: medium;
+}
+
+.otakus-details{
+   margin-top: 250px; 
+   margin-left: 10px;
+   display: none;
+}
+
+.otakus-page-advert{
+    display: none;
+    background-color: blue;
+    width: 30%;
+    
+}
+
+.otakus-details-span{
+    color: rgb(26, 245, 26);
+}
+
+.otakus-watch-here{
+    border: solid 1px;
+    border-radius: 8px;
+    padding: 3px;
+    color: rgb(26, 245, 26);
+    margin-top: 10px;
+    margin-left: 80%;
+   
+}
+
 /*Anime page*/
 
 .category-container{
@@ -434,18 +619,19 @@ border-radius: 10px;
 
     body{
         text-align: center;
+        color: white;
     }
 
     .navbar{
-        position: relative;
+        position: static;
         width: 100%;
         height: fit-content;
-        background-color: black;
+        background-color: transparent;
         z-index: 2;
     }
 
     .navbar-container{
-        background-color: black;
+        
     }
 
 
@@ -456,49 +642,56 @@ border-radius: 10px;
     .logo{
         position: absolute;
         top: 10px;
-        left: 40px;
+        left: 10px;
+        z-index: 2;
     }
 
 .menu-container{
-    display: flex;
-    flex-direction: column;
+    
     align-items: center;
     position: relative;
-
+    width: 100%;
+    height: fit-content;
 }
-
 
 .hamburger{
     opacity: 100%;
     position: absolute;
 font-size: 25px;
-top: 18px;
+margin-top: 65px;
+right: 5px;
+z-index: 2;
+}
+
+.hamburger-single{
+    opacity: 100%;
+    position: absolute;
+font-size: 25px;
+margin-top: 10px;
 right: 5px;
 z-index: 2;
 
 }
 
-
 .menu-list{
         display: none;
         flex-direction: column;
         justify-content: space-around;
-        width: 100vh;
-        align-content: center;
+        width: 100%; 
         position: relative;
-        margin-top: 7%;
+        margin-top: 0px;
         margin-right: 33%;
-
+ 
         }
 
     .menu-list-item{
         padding: 10px 0;
         width: 100%;
-        height: fit-content;
-text-align: center;
-position: relative;
-margin: 10px 0;
-transition: all 1s ease-in-out;
+        text-align: center;
+        position: relative;
+        margin: 0px 0;
+        transition: all 1s ease-in-out;
+        top: 50px;
     }
 
     .menu-list-item:hover{
@@ -528,7 +721,7 @@ display: none;
     background: linear-gradient(to bottom, green, #2D2727);
     gap: 30px;
     position: relative;
-    top: 40px;
+    top: 50px;
     border-radius: 7%;
     text-align: center;
     margin-left: auto;
@@ -597,6 +790,7 @@ background-color: aqua;
     text-decoration: none;
 }
 
+
 .heading{
     color: white;
 }
@@ -651,6 +845,257 @@ margin-top: 5px;
      padding: 10px;
 }
 
+.must-watch-container{
+    
+    margin-top: 100px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.must-watch-video-advert{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+   width: 100%;
+   margin-top: 30px;
+
+
+}
+
+.must-watch-video-container{
+    width: fit-content;
+    text-align: center;
+    
+    
+}
+
+.must-watch-video{
+    position: relative;
+    width: 270px;
+    height: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+.must-watch-advert{
+    display: none;
+    background-color: rgb(0, 255, 115);
+    width: 270px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.must-watch-item-details{
+    position: relative;
+    margin-left: 0px;
+    
+}
+
+.must-watch-details{
+   color: rgb(26, 245, 26); 
+  
+}
+
+.must-watch-details-span{
+   color: white; 
+   font-size: smaller;
+   
+}
+
+.details-name{
+   font-size: medium;
+   color: rgb(26, 245, 26);
+}
+
+.must-watch-plot-container{
+    text-align: left;
+    width: fit-content;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.must-watch-plot-heading{
+    color: white;
+    font-family: 'Rethink Sans', sans-serif;
+    font-style: italic;
+}
+
+.must-watch-plot{
+    width: 100%;
+    color: white;
+}
+
+.must-watch-similar{
+  display: grid; 
+ grid-template-columns: 1fr 1fr;
+ gap: 0px;
+ margin-left: 10px;
+}
+
+.must-watch-here{
+    text-decoration: none;
+    color: rgb(26, 245, 26);
+    position: relative;
+    
+}
+
+
+.similar-item-img{
+   width: 130px;
+   height: 140px;
+   border-radius: 10px;
+}
+
+.similar-heading-container{
+    width: fit-content;
+    padding-right: 20px;
+    border-radius: 0 0 50px;
+    background-color: rgb(26, 245, 26);
+    margin-top: 10px;
+}
+
+.similar-heading{
+    text-align: left;
+    color: black;
+}
+
+.anime-item-must-watch-similar{
+    text-align: center;
+}
+
+.similar-item-name-link{
+        font-size: x-small;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+
+.comment-section-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .comment-section-heading{
+        font-size: medium;
+    }   
+
+/*otakus opinion*/
+
+    .otakus-opinion{
+        border: solid 1px;
+        color: white;
+      
+    }
+    
+    .otakus-item{
+        border: solid 0.1px;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .otakus-page-container{
+        position: relative;
+           margin-top: 90px; 
+           margin-left: 20px;
+           color: white;
+           text-align: center;
+           font-family: sans-serif;
+           font-size: smaller;
+    }
+    
+    .otakus-page-item-and-advert{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    
+    .otakus-page-item{
+        width: 100%;
+       
+    }
+    
+    
+    .otakus-page-container h1{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: left;
+        margin-left: 1px;
+        font-family: 'Rethink Sans', sans-serif;
+        font-style: italic;
+    }
+    
+    .otakus-page-item h2{
+        color:  rgb(26, 245, 26);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-left: 1px;
+        font-family: 'Cormorant Garamond', serif;
+        
+
+    }
+    .otakus-page-img-and-details-cont{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    .otakus-img{
+        width: 50%;
+        height: 198px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .otakus-details{
+       margin-top: 20px; 
+      text-align: center;
+     
+    }
+    
+    .otakus-details-span{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        
+    }
+    
+    .otakus-page-advert{
+        display: none;
+        width: 100%;
+        height: 200px;
+        
+    }
+    
+    .otakus-details-span{
+        color: rgb(26, 245, 26);
+    }
+    
+    .otakus-page-item-writeup{
+        text-align: left;
+    }
+    
+    
+    .otakus-watch-here{
+        border: solid 1px;
+    border-radius: 8px;
+    padding: 3px;
+    color: rgb(26, 245, 26);
+    margin-left: auto;
+       
+    }
+
+
+
 .anime-item-name-link-episode{
     color: rgb(26, 245, 26);
     text-decoration: none;
@@ -693,24 +1138,24 @@ font-family: 'Victor Mono', monospace;
 
 .menu-container-single{
     display: none;
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
 }
 
 .menu-list-single{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 100vh;
-    align-content: center;
     position: relative;
-    margin-top: 7%;
-    margin-right: 33%;
-
+    
+width: 100%;
+text-align: center;
     }
 
 .menu-list-item-single{
     padding: 10px 0;
     width: 100%;
-    height: fit-content;
 text-align: center;
 position: relative;
 margin: 10px 0;
@@ -846,6 +1291,6 @@ padding: 2px;
 
   
   
-  
+ 
   
 }

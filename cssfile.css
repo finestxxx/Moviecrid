@@ -1001,7 +1001,7 @@ margin-top: 5px;
     .otakus-page-container{
         position: relative;
            margin-top: 90px; 
-           margin-left: 20px;
+           margin-left: 2px;
            color: white;
            text-align: center;
            font-family: sans-serif;
@@ -1050,7 +1050,7 @@ margin-top: 5px;
     }
     
     .otakus-img{
-        width: 50%;
+        width: 60%;
         height: 198px;
         margin-left: auto;
         margin-right: auto;
@@ -1082,7 +1082,7 @@ margin-top: 5px;
     
     .otakus-page-item-writeup{
         text-align: left;
-        width: 96%;
+        width: 99%;
     }
     
     
